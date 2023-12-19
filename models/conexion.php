@@ -11,6 +11,7 @@ class Conexion{
 
   //2. Método que retornará la conexión (será utilizada por las clases en el MODELS)
   public function getConexion(){
+
     try{
       //3. Instancia de la clase PDO (PHP Data Objects)
       //No olvidar que la sintaxis es:
